@@ -17,5 +17,5 @@ values (1,'Hoang',21,'CNTT',400000),
        (5,'Huong',20,'TCNH',200000);
 
 select * from student where ten = 'Huong' group by sotien;
-select
+
 select * from  student  group by ten;
